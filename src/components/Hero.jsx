@@ -5,11 +5,11 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="hero-container">
-      <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Joe's personal headshot" />
+      <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Personal headshot" />
       <div className="hero-text">
         <h1>Hello, I am Ramsha </h1>
         <p>
-          I'm an undergraduate computer engineering major at Jamia Millia Islamia, New Delhi exploring how systems can be made secure for people and curious about security, privacy and other things in between.
+          I'm a first-year PhD student at the University of New Mexico working in the guidance of Dr Afsah Anwar. I aim to bring creativity into my research and currently am curious about security, privacy and other things in between. 
         </p>
         {/* <div className="social_icons">
             <a
